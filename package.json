@@ -1,0 +1,38 @@
+{
+  "name": "asj-hw1.3",
+  "version": "1.0.0",
+  "description": "homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dadiakov/asj-hw1.3.git"
+  },
+  "keywords": [
+    "hw1.3"
+  ],
+  "author": "dadiakov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dadiakov/asj-hw1.3/issues"
+  },
+  "homepage": "https://github.com/dadiakov/asj-hw1.3#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@typescript-eslint/eslint-plugin": "^4.26.1",
+    "@typescript-eslint/parser": "^4.26.1",
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-react": "^7.24.0"
+  },
+  "dependencies": {
+    "core-js": "^3.14.0"
+  }
+}
